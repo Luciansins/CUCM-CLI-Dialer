@@ -1,0 +1,33 @@
+#configuration file
+#
+# server_address: IP Address of the CUCM server
+# user: user
+# password: password
+# mac_address: MAC Address of the phone
+# line_number: line number of the phone
+# end_user: valid cucm end user
+# end_password: valid end user password
+# preffix: any preffix number (meant for LDI Option)
+# FAC: any suffix to work as Force Authorization Code (it goes after an automatically added pound sign)
+#hang up time: is the time set to end each call inside an iteration.
+
+[config_set]
+
+server_address:
+user:
+password:
+mac_address:
+line_number:
+end_user:
+end_password:
+preffix:
+FAC:
+hang_up_time:
+
+[lists]
+#comma separated list (eg: 1234, 1234, 1234)
+list:
+
+
+
+
