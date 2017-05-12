@@ -99,11 +99,11 @@ def main(args = None):
       <prof href="#id2" />
       </tns:endCallSoap>
       <tns:Credential id="id1" xsi:type="tns:Credential">
-      <userID xsi:type="xsd:string">DN3121</userID>
-      <password xsi:type="xsd:string">12345</password>
+      <userID xsi:type="xsd:string">"""+end_user+"""</userID>
+      <password xsi:type="xsd:string">"""+end_password+"""</password>
       </tns:Credential>
       <tns:UserProfile id="id2" xsi:type="tns:UserProfile">
-      <user xsi:type="xsd:string">DN3121</user>
+      <user xsi:type="xsd:string">"""+end_user+"""</user>
       <deviceName xsi:type="xsd:string">"""+mac_address+"""</deviceName>
       <lineNumber xsi:type="xsd:string">?</lineNumber>
       <supportEM xsi:type="xsd:boolean">false</supportEM>
